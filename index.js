@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 //JSON post
 app.use(bodyParser.json());
 
-app.set('port', (process.env.PORT || 1337));
+app.set('port', (process.env.PORT || 5000));
 
 //use: for both POST and GET
 app.use('/', function(request, response) 
